@@ -1,0 +1,142 @@
+# depslib dependency file v1.0
+1237945013 source:c:\users\bubba\documents\games\magnetic\editor\main.cpp
+	<cstdlib>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<fstream>
+	<cmath>
+	<iostream>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"game.h"
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\game.h
+	"window.h"
+	"input.h"
+	"point.h"
+	"mathfunctions.h"
+	"resourcemgr.h"
+	"image.h"
+	<vector>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	"toolManager.h"
+
+1238185186 c:\users\bubba\documents\games\magnetic\editor\window.h
+	<string>
+	"timer.h"
+
+1237945013 c:\users\bubba\documents\games\magnetic\editor\timer.h
+
+1237945013 c:\users\bubba\documents\games\magnetic\editor\input.h
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	<map>
+	"window.h"
+	"joystick.h"
+	"point.h"
+
+1237945013 c:\users\bubba\documents\games\magnetic\editor\joystick.h
+	<string>
+	<SDL/SDL.h>
+
+1237945013 c:\users\bubba\documents\games\magnetic\editor\point.h
+
+1237945013 c:\users\bubba\documents\games\magnetic\editor\mathfunctions.h
+	"point.h"
+
+1238185186 c:\users\bubba\documents\games\magnetic\editor\resourcemgr.h
+	<vector>
+	<string>
+	"image.h"
+	"audio.h"
+	"font.h"
+	"window.h"
+
+1238185186 c:\users\bubba\documents\games\magnetic\editor\image.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<string>
+	"point.h"
+
+1238012569 c:\users\bubba\documents\games\magnetic\editor\audio.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<vector>
+	"sound.h"
+	"music.h"
+	<string>
+
+1237945013 c:\users\bubba\documents\games\magnetic\editor\sound.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1237945013 c:\users\bubba\documents\games\magnetic\editor\music.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1238185186 c:\users\bubba\documents\games\magnetic\editor\font.h
+	<string>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL.h>
+	<cstdlib>
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\toolmanager.h
+	"grid.h"
+	"camera.h"
+	"toolSnap.h"
+	"toolRectEditor.h"
+	"toolWallEditor.h"
+	"toolFileWriter.h"
+	"input.h"
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\grid.h
+	"window.h"
+	"point.h"
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\camera.h
+	"point.h"
+	"input.h"
+	"window.h"
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\toolsnap.h
+	"point.h"
+	"window.h"
+	"input.h"
+	"grid.h"
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\toolrecteditor.h
+	"point.h"
+	"toolSnap.h"
+	"rect.h"
+	"input.h"
+
+1238292001 c:\users\bubba\documents\games\magnetic\editor\rect.h
+	"point.h"
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\toolwalleditor.h
+	"wall.h"
+	"toolRectEditor.h"
+	"toolSnap.h"
+	"input.h"
+	"toolFileWriter.h"
+	<vector>
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\wall.h
+	"point.h"
+	"rect.h"
+	<string>
+
+1238699841 c:\users\bubba\documents\games\magnetic\editor\toolfilewriter.h
+	<iomanip>
+	<fstream>
+	<sstream>
+	<vector>
+

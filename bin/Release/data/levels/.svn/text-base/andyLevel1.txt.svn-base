@@ -1,0 +1,75 @@
+
+#MAGNET
+%name:		polarity:	strength:	reach:		on:		linear:		center_x:	center_y:	radius:
+%______________________________________________________________________________________________________________________________________
+magnet1		-1		60		225		1		0		-25		245		20	
+magnet2		1		65		320		1		0		145		800		20	
+magnet3		-1		70		325		1		0		750		768		20
+magnet4		1		75		350		1		0		1050		145		20
+orbitMag	-1		1500		200		1		1		425		255		20
+
+
+#DOOR
+%name:		uLx: 	uLY:		width:		hight:		openSpeed:	openLocX:	openLocY:
+%		 |	|							             | 		    |
+%		 |	|___________________Make == to open left or right____________________|______________|
+%		 |									     |		    
+%		 |_______________Make == to open up or down__________________________________|
+__________________________________________________________________________________________________________________________
+door1		25	490		175		30		250		200		490
+door2		220	730		30		235		250		 220		490
+door3		670	730		30		235		250		 670		1013
+door4		695	230		295		30		250		400		230	
+
+#WALL
+%name:		destructible:	health:		strength:	ul_x:		ul_y:		lr_x:		lr_y:
+%________________________________________________________________________________________________________________________
+leftWall		0	1		1		0		755		30		0
+botWall			0	1		1		25		30		1017		0
+topWall			0	1		1		0		768		1017		738
+rightWall		0	1		1		994		755		1024		0
+topWall			0	1		1		0		768		1024		738
+last			0	1		1		390		230		690		200
+right2			0	1		1		670		500		700		200
+left2			0	1		1		200		500		245		23			
+topWall2		0	1		1		200		500		700		460
+
+#BALL
+%name:		polarity:	mass:		x_vel		y_vel		health:		radius:		substance:	center_x:	center_y:
+%________________________________________________________________________________________________________________________________________________________
+playerBall	0		1.0		0		0		100		20		2		100		120.0
+Goal		0		5.0		0		0		100		50		2		610		400
+
+
+
+#BUMPER
+%Bumper(string name, int bumpVal, int health, double radius, Substance sub, Point center)
+%name:		bumpVal:	health:		radius:		substance	center_x:	center_y:
+%________________________________________________________________________________________________________________________
+		
+
+#BUTTON
+%name:		ul_x:		ul_y:		lr_x:		lr_y:		Direction:
+%________________________________________________________________________________________________________________________		
+button1		170		300		200		190		2
+button2		90		728		200		698		1
+button3		375		530		505		495		0
+button4		696		350		725		240		3
+
+#STIMULUSRESPONSE
+%STIMULUS = 0: ONTOUCH	1: ONUNTOUCH
+%RESPONSE = 0: OPEN	1: CLOSE
+%entityName:	stimulus:	targetName:	response:
+%________________________________________________________________________________________________________________________
+button1 	0		door1		0
+
+button2		0		door2		0
+
+
+button3		0		door3		0
+button3		0		door2		1
+
+
+button4		0		door4		0
+button4		0		door3		1
+

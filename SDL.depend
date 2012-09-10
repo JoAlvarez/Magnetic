@@ -1,0 +1,284 @@
+# depslib dependency file v1.0
+1238106379 source:c:\users\bubba\documents\games\magnetic\entity.cpp
+	"entity.h"
+	"entitycontainer.h"
+	<math.h>
+	<iostream>
+
+1238292001 c:\users\bubba\documents\games\magnetic\entity.h
+	"detectable.h"
+	"resourcemgr.h"
+	<string>
+	<vector>
+
+1238919924 source:c:\users\bubba\documents\games\magnetic\game.cpp
+	"game.h"
+	<cmath>
+	"ball.h"
+	"magnet.h"
+
+1238919924 c:\users\bubba\documents\games\magnetic\game.h
+	"window.h"
+	"input.h"
+	"point.h"
+	"mathfunctions.h"
+	"resourcemgr.h"
+	"image.h"
+	"stage.h"
+	"startmenu.h"
+	<vector>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	"entitycontainer.h"
+
+1239318407 c:\users\bubba\documents\games\magnetic\window.h
+	<string>
+	"timer.h"
+
+1234303743 c:\users\bubba\documents\games\magnetic\timer.h
+
+1234303743 c:\users\bubba\documents\games\magnetic\input.h
+	<SDL/SDL.h>
+	<vector>
+	<string>
+	<map>
+	"window.h"
+	"joystick.h"
+	"point.h"
+
+1234303743 c:\users\bubba\documents\games\magnetic\joystick.h
+	<string>
+	<SDL/SDL.h>
+
+1234303743 c:\users\bubba\documents\games\magnetic\point.h
+
+1234303743 c:\users\bubba\documents\games\magnetic\mathfunctions.h
+	"point.h"
+
+1238185190 c:\users\bubba\documents\games\magnetic\resourcemgr.h
+	<vector>
+	<string>
+	"image.h"
+	"audio.h"
+	"font.h"
+	"window.h"
+
+1238185190 c:\users\bubba\documents\games\magnetic\image.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	<string>
+	"point.h"
+
+1234303743 c:\users\bubba\documents\games\magnetic\audio.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<vector>
+	"sound.h"
+	"music.h"
+	<string>
+
+1234303743 c:\users\bubba\documents\games\magnetic\sound.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1234303743 c:\users\bubba\documents\games\magnetic\music.h
+	<SDL/SDL_mixer.h>
+	<SDL/SDL.h>
+	<string>
+
+1238185190 c:\users\bubba\documents\games\magnetic\font.h
+	<string>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL.h>
+	<cstdlib>
+
+1234303743 source:c:\users\bubba\documents\games\magnetic\main.cpp
+	<cstdlib>
+	<GL/gl.h>
+	<GL/glu.h>
+	<string>
+	<fstream>
+	<cmath>
+	<iostream>
+	<SDL/SDL.h>
+	<SDL/SDL_opengl.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	"game.h"
+
+1237945014 source:c:\users\bubba\documents\games\magnetic\detectable.cpp
+	"detectable.h"
+	"mathfunctions.h"
+	<cmath>
+
+1238699846 source:c:\users\bubba\documents\games\magnetic\button.cpp
+	"button.h"
+
+1238699846 source:c:\users\bubba\documents\games\magnetic\door.cpp
+	"door.h"
+
+1239082335 source:c:\users\bubba\documents\games\magnetic\magnet.cpp
+	"magnet.h"
+	<cmath>
+
+1239082335 c:\users\bubba\documents\games\magnetic\magnet.h
+	"mathfunctions.h"
+	"ball.h"
+
+1239082335 c:\users\bubba\documents\games\magnetic\ball.h
+	"entity.h"
+	"window.h"
+	"point.h"
+	"resourcemgr.h"
+
+1239318407 source:c:\users\bubba\documents\games\magnetic\ball.cpp
+	"ball.h"
+	<cmath>
+	"magnet.h"
+	"vector2d.h"
+
+1238699846 source:c:\users\bubba\documents\games\magnetic\bumper.cpp
+	"bumper.h"
+	"mathfunctions.h"
+	<cmath>
+
+1238185190 c:\users\bubba\documents\games\magnetic\button.h
+	"entity.h"
+
+1235516143 source:c:\users\bubba\documents\games\magnetic\damageable.cpp
+	"damageable.h"
+
+1235516143 c:\users\bubba\documents\games\magnetic\damageable.h
+
+1237945014 c:\users\bubba\documents\games\magnetic\detectable.h
+	"point.h"
+
+1238292001 c:\users\bubba\documents\games\magnetic\entitycontainer.h
+	"entity.h"
+	<vector>
+	<map>
+	<string>
+
+1238292001 source:c:\users\bubba\documents\games\magnetic\entitycontainer.cpp
+	"entitycontainer.h"
+	"ball.h"
+	"button.h"
+	"magnet.h"
+	"wall.h"
+	"bumper.h"
+	"door.h"
+	"general.h"
+	<iostream>
+	<fstream>
+	<sstream>
+
+1238100963 source:c:\users\bubba\documents\games\magnetic\wall.cpp
+	"wall.h"
+	"entitycontainer.h"
+
+1235868347 c:\users\bubba\documents\games\magnetic\wall.h
+	"entity.h"
+	"ball.h"
+
+1236292367 c:\users\bubba\documents\games\magnetic\bumper.h
+	"entity.h"
+	"window.h"
+	"point.h"
+	"resourcemgr.h"
+	"ball.h"
+
+1238292001 source:c:\users\bubba\documents\games\magnetic\level.cpp
+	"level.h"
+
+1238292001 c:\users\bubba\documents\games\magnetic\level.h
+	"entitycontainer.h"
+	"player.h"
+	"input.h"
+	<cmath>
+	"door.h"
+	"camera.h"
+
+1238100963 source:c:\users\bubba\documents\games\magnetic\player.cpp
+	"player.h"
+
+1236293477 c:\users\bubba\documents\games\magnetic\player.h
+	"timer.h"
+	"input.h"
+	"ball.h"
+
+1238699846 c:\users\bubba\documents\games\magnetic\door.h
+	"point.h"
+	"entity.h"
+
+1238919924 source:c:\users\bubba\documents\games\magnetic\clickablebutton.cpp
+	"clickablebutton.h"
+
+1238919924 c:\users\bubba\documents\games\magnetic\clickablebutton.h
+	"point.h"
+	"input.h"
+	"resourcemgr.h"
+
+1235868347 source:c:\users\bubba\documents\games\magnetic\menu.cpp
+	"menu.h"
+
+1235868347 c:\users\bubba\documents\games\magnetic\menu.h
+	"point.h"
+	"input.h"
+	"clickablebutton.h"
+	"resourcemgr.h"
+
+1237945014 c:\users\bubba\documents\games\magnetic\vector2d.h
+	"mathfunctions.h"
+
+1237945014 source:c:\users\bubba\documents\games\magnetic\vector2d.cpp
+	"vector2d.h"
+	<cmath>
+
+1238115870 source:c:\users\bubba\documents\games\magnetic\stage.cpp
+	"stage.h"
+
+1238112466 c:\users\bubba\documents\games\magnetic\stage.h
+	"level.h"
+	<fstream>
+
+1238702703 source:c:\users\bubba\documents\games\magnetic\general.cpp
+	"general.h"
+
+1238702661 c:\users\bubba\documents\games\magnetic\general.h
+	"entity.h"
+
+1238919924 c:\users\bubba\documents\games\magnetic\camera.h
+	"entity.h"
+	"entitycontainer.h"
+	"player.h"
+	"point.h"
+	"input.h"
+	"window.h"
+
+1238919924 source:c:\users\bubba\documents\games\magnetic\camera.cpp
+	"camera.h"
+	<iostream>
+	"mathfunctions.h"
+	<cmath>
+
+1238919924 c:\users\bubba\documents\games\magnetic\startmenu.h
+	"input.h"
+	"clickablebutton.h"
+	"resourcemgr.h"
+	"playernamemenu.h"
+
+1239082335 c:\users\bubba\documents\games\magnetic\playernamemenu.h
+	"input.h"
+	"clickablebutton.h"
+	"resourcemgr.h"
+
+1239082335 source:c:\users\bubba\documents\games\magnetic\playernamemenu.cpp
+	"playernamemenu.h"
+	<fstream>
+
+1239082335 source:c:\users\bubba\documents\games\magnetic\startmenu.cpp
+	"startmenu.h"
+	<iostream>
+

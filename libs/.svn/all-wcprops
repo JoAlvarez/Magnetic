@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/predatorinteractive_magnetic/!svn/ver/233/libs
+END
+libpng.lib
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/predatorinteractive_magnetic/!svn/ver/1/libs/libpng.lib
+END
+libfreetype.dll.a
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/predatorinteractive_magnetic/!svn/ver/5/libs/libfreetype.dll.a
+END
+SDL_ttf.lib
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/predatorinteractive_magnetic/!svn/ver/1/libs/SDL_ttf.lib
+END
+libinstinct.lib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/predatorinteractive_magnetic/!svn/ver/216/libs/libinstinct.lib
+END
+SDL_image.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/predatorinteractive_magnetic/!svn/ver/1/libs/SDL_image.lib
+END
+SDL_mixer.lib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/predatorinteractive_magnetic/!svn/ver/1/libs/SDL_mixer.lib
+END
